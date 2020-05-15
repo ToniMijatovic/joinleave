@@ -1,0 +1,7 @@
+name: Joinleave
+version: ${project.version}
+main: tonioostblok.joinleave.Joinleave
+api-version: 1.13
+commands:
+  Join:
+  Leave:
