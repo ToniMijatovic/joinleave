@@ -21,8 +21,6 @@ public final class Joinleave extends JavaPlugin {
         this.saveDefaultConfig();
         config.addDefault("join_message", this.defaultJoin);
         config.addDefault("leave_message", this.defaultLeave);
-        config.options().copyDefaults(true);
-        saveConfig();
     }
 
     @Override
